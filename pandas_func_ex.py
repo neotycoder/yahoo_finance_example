@@ -1,4 +1,4 @@
-#!/Library/Frameworks/Python.framework/Versions/3.8/bin/python3
+#!/usr/bin/python3
 
 # Description: This script will show various uses of the Pandas module. This version of the script organizes all the calls into functions.
 
@@ -19,10 +19,6 @@ def get_stock(sym):
 def build_dataframe(stock_obj):
     # Get history details for the Apple Stock
     hist = stock_obj.history(period="5y")
-
-    # You can print the details of the query and the history
-    #print(aapl)
-    #print(hist)
 
     # Assign the history details to a data frame
     history_df = pd.DataFrame(hist)
