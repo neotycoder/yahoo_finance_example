@@ -1,4 +1,4 @@
-#!/Library/Frameworks/Python.framework/Versions/3.8/bin/python3
+#!/usr/bin/python3
 
 # Description: This script will show various uses of the Pandas module.
 
