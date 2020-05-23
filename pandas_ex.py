@@ -27,7 +27,7 @@ print(history_df)
 # Let's export the data frame to a csv file:
 history_df.to_csv('aapl.csv', header=True)
 
-# select a rows based on values
+# select rows based on conditions
 print("Display Price close less than 120: ")
 less_than_120 = history_df.loc[history_df['Close'] <= 120]
 print(less_than_120)

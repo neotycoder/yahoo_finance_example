@@ -32,7 +32,9 @@ def output_dataframe_to_csv(stock_dataframe, stock_symbol):
     stock_dataframe.to_csv(filename, header=True)
 
 def query_print(stock_dataframe):
-    # select a rows based on values
+    
+    # select rows based on conditions
+    
     print("Display Price close less than 120: ")
     less_than_120 = stock_dataframe.loc[stock_dataframe['Close'] <= 120]
     print(less_than_120)
