@@ -13,7 +13,7 @@ class stockquery:
     def __init__(self, sym):
         self.sym = sym 
 
-    def get_stock(self, symbol):
+    def get_stock(self, sym):
         
         sym = self.sym
         # This will rectify an issue with an SSL certificate request when querying the yahoo finance api.
