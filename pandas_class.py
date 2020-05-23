@@ -41,7 +41,7 @@ class stockquery:
 
     def query_print(self, stock_dataframe):
         
-        # select rows based on values
+        # select rows based on conditions
         
         print("Display Price close less than 120: ")
         less_than_120 = stock_dataframe.loc[stock_dataframe['Close'] <= 120]
