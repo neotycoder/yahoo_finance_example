@@ -16,9 +16,6 @@ aapl = yf.Ticker('AAPL')
 # Get history details for the Apple Stock
 hist = aapl.history(period="5y")
 
-# You can print the details of the query and the history
-#print(aapl)
-#print(hist)
 print("You made it here!!")
 # Assign the history details to a data frame
 history_df = pd.DataFrame(hist)
